@@ -1,0 +1,11 @@
+Ideas for commands
+==================
+Note that some of these are parameters, not really "commands" for our program. As in, a command will signal the program to look for certain parameters and pass those parameters (if they exist) to whatever function is being invoked by the user.
+
+generate
+    name <male> <female> <unisex> [first/last/full]
+    names <#> <male> <female> <unisex> [first/last/full]
+about-program
+    license
+    version
+exit

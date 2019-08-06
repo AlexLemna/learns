@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rosevomitDemo", "rosevomitDemo\rosevomitDemo.csproj", "{BEE2840A-7A10-46DB-97CE-315D0C8D77AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE2840A-7A10-46DB-97CE-315D0C8D77AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE2840A-7A10-46DB-97CE-315D0C8D77AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE2840A-7A10-46DB-97CE-315D0C8D77AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE2840A-7A10-46DB-97CE-315D0C8D77AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {510458E8-17B5-480C-9D1E-2EC9C68DE58B}
+	EndGlobalSection
+EndGlobal

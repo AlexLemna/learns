@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data project-name="Rosebud" release-name="Tapestry">
+
+<!--HUMAN VERSION-->
+<!--The "human version" is the version number most frequently seen by end-users, and also the-->
+<!--version number used internally for planning and discussion. It strives to be reasonably-->
+<!---->
+<version type="human">
+  <major>12</major>
+  <minor>34</minor>
+  <patch>56</patch>
+</version>
+
+<!--MACHINE VERSION or API VERSION-->
+<!--The "machine version" is the version number according to strict Semantic Versioning.-->
+<!--This is useful for situations where someone depends on all or part of our code alongside-->
+<!--a bunch of other programs or has an automated workflow that depends on version numbers-->
+<!--being reliable indicators of compatibility.-->
+<!--This means that this number WUST NOT be changed for marketing purposes, planning purposes,-->
+<!--etc. It MUST be used to indicate reliability and upgrade risk.-->
+<version type="machine">
+  <major>14</major> <!--Interface change breaking backward compatibility.-->
+  <minor>11</minor> <!--Interface change with full backward compatibility. Users can update.-->
+  <patch>2</patch> <!--Internal fixes. Users should update without hesitation.-->
+</version>
+
+<development-version>
+  <is-release>false</is-release>
+  <prerelease-info>
+    <!--This section is for tracking public betas or release candidates.-->
+    <number>5</number>
+    <is-beta>true</is-beta>
+  </prerelease-info>
+
+  <build-info>
+    <!--This section is for tracking internal versions.-->
+    <branch-id>abcdef</branch-id>
+    <!--For devbranch builds, 6 alphanumerical characters followed by a build number. For master builds, simply a build number.-->
+    <number>26</number>
+  </build-info>    
+</development-version>
+  
+<date>
+  <year>2019</year>
+  <month>6</month>
+  <day>22</day>
+</date>
+
+<audience>
+  <OS-family>Windows NT</OS-family>
+  <OS-version>10</OS-version>
+  <architecture>64</architecture>
+</audience>
+
+</data>

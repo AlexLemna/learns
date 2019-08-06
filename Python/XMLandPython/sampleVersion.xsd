@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="2" maxOccurs="2" name="version">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="major" type="xs:unsignedInt" />
+              <xs:element name="minor" type="xs:unsignedInt" />
+              <xs:element name="patch" type="xs:unsignedInt" />
+            </xs:sequence>
+            <xs:attribute name="type" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="development-version">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="is-release" type="xs:boolean" />
+              <xs:element name="prerelease-info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="number" type="xs:unsignedInt" />
+                    <xs:element name="is-beta" type="xs:boolean" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="build-info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="branch-id" type="xs:string" />
+                    <xs:element name="number" type="xs:unsignedInt" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="date">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="year" type="xs:unsignedShort" />
+              <xs:element name="month" type="xs:unsignedByte" />
+              <xs:element name="day" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="audience">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OS-family" type="xs:string" />
+              <xs:element name="OS-version" type="xs:decimal" />
+              <xs:element name="architecture" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="product-name" type="xs:string" use="optional" />
+      <xs:attribute name="project-name" type="xs:string" use="required" />
+      <xs:attribute name="release-name" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

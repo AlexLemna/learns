@@ -1,0 +1,7 @@
+print()
+print ("Hello there! What's your name?")
+print()
+name = input ("Don't be rude, answer the poor chap. What *IS* your name? Enter a name: ")
+print()
+print (f"{name}. That's a stupid name.")
+print()

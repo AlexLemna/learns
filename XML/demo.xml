@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions>
+
+  <EntityDefinition Name = "BaseSentient" Abstract ="True">
+    <Sentient>True</Sentient>
+  </EntityDefinition>
+
+  <sentient id="24601">
+    <nameinfo>
+      <name nameid="1">
+        <nametype>birth</nametype>
+        <personal-name>Janice</personal-name>
+        <personal-name-full>Janice Humphrey</personal-name-full>
+        <surname>Itor</surname>
+        <surname-full>Itor bin Salman al Saud</surname-full>
+        <socialcontext>formal</socialcontext>
+      </name>
+      <name nameid="2">
+        <nametype>nickname</nametype>
+        <nametype>childhood</nametype>
+        <personal-name>Janitor</personal-name>
+      </name>
+    </nameinfo>
+    <entity-stats>
+      <date-of-birth>
+        <occured>true</occured>
+        <known>false</known>
+      </date-of-birth>
+      <parentage>
+        <parent parentid="1">
+          <entity-id>123a1</entity-id>
+          <parentage-socialcontext>
+            <shameful>false</shameful>
+            <public-knowledge>false</public-knowledge>
+          </parentage-socialcontext>
+        </parent>
+      </parentage>
+    </entity-stats>
+  </sentient>
+  
+</Definitions>

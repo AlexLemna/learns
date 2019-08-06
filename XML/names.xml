@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<names-xml-data>
+<name-record nameid="a3ri-22nd">
+<!--Percival Fredrickstein von Musel Klossowski de Rolo III, Lord of Whitestone-->
+  
+  <record-id>1234</record-id>
+  <IsMononymous>false</IsMononymous>
+  <naming_scheme>western generic</naming_scheme>
+  <default_script>latin</default_script>
+  <default_language>english</default_language>
+  
+  <personal_name>
+    <!--If a character's name is associated with a nickname,-->
+    <!--we use the "character_prefers" boolean variable to-->
+    <!--determine how the character introduces themself.-->
+    <!--If both are set to true, then the character will randomly-->
+    <!--use either.-->
+    <name>
+      <character_prefers>true</character_prefers>
+      <string script="latin" language="english">Percival</string>
+    </name>
+    <nick>
+      <character_prefers>false</character_prefers>
+      <string script="latin" language="english">Percy</string>
+    </nick>
+    <in_short_name>true</in_short_name>
+    <culture>Tal'Dorei</culture>
+  </personal_name>
+
+  <personal_name>
+    <name>
+      <string script="latin" language="english">Fredrickstein</string>
+    </name>
+    <culture>Tal'Dorei</culture>
+    <culture>Zemnian</culture>
+  </personal_name>
+  
+  <suffix>
+    <type>numerical</type>
+    <roman_numeral>III</roman_numeral>
+    <string script="latin" language="english">the Third</string>
+  </suffix>
+  
+  <group_name>
+    <name>
+      <string script="latin" language="english">von Musel</string>
+    </name>
+    <culture>Tal'Dorei</culture>
+  </group_name>
+
+  <group_name>
+    <name>
+      <string script="latin" language="english">Klossowski</string>
+    </name>
+    <culture>Tal'Dorei</culture>
+  </group_name>
+
+  <group_name>
+    <name>
+      <string script="latin" language="english">de Rolo</string>
+    </name>
+    <in_short_name>true</in_short_name>
+    <culture>Tal'Dorei</culture>
+  </group_name>
+
+  <title title_id="1246">
+    <is_geographic>true</is_geographic>
+    <rank>Lord</rank>
+    <preposition>
+      <string script="latin" language="english">of</string>
+      <string script="latin" language="spanish">de</string>
+    </preposition>
+    <place place_id="201">Whitestone</place>
+  </title>
+  
+</name-record>
+
+<name-record nameid="77ge-mw8i">
+<!--John Jacob Jingleheimer Schmidt-->
+  
+  <record-id>107</record-id>
+  <IsMononymous>false</IsMononymous>
+  <naming_scheme>western generic</naming_scheme>
+  <default_script>latin</default_script>
+  <default_language>english</default_language>
+  <uses_short_name>false</uses_short_name>
+
+  <personal_name>
+    <name>
+      <string script="latin" language="english">John</string>
+    </name>
+  </personal_name>
+
+  <personal_name>
+    <name>
+      <string script="latin" language="english">Jacob</string>
+    </name>
+  </personal_name>
+
+  <group_name>
+    <name>
+      <string script="latin" language="english">Jingleheimer</string>
+    </name>
+  </group_name>
+
+  <group_name>
+    <name>
+      <string script="latin" language="english">Schmidt</string>
+    </name>
+  </group_name>
+
+</name-record>
+</names-xml-data>
