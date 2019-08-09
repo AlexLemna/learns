@@ -1,0 +1,5 @@
+project Weirdcal is
+    for Source_Dirs use ("src");
+    for Object_Dir use "obj";
+    for Main use ("weirdcal_main.adb");
+end Weirdcal;
