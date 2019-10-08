@@ -1,13 +1,13 @@
 -- file: weirdcal.ads
-type num_day_of_month is range 1 .. 28;
-type num_month_of_year is range 1 .. 13;
-type num_longcount_year is Natural;
-type hour is mod 24;
-type minute is mod 60;
-type second is mod 60;
-type proper_month is (Onemonth, Twomonth, Threemonth, Fourmonth, Fivemonth, Sixmonth, Sevenmonth, Eightmonth, Ninemonth, Tenmonth, Elevenmonth, Twelvemonth, Thirteenmonth);
-type proper_day_of_week is (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday);
-subtype workweek is proper_day_of_week range Monday .. Friday;
+package Antikythera_Calendar is
+   subtype calendar_year is Integer range 1 .. Integer`Last;
+   subtype duration_of_day is Duration range 0.0 .. 86_400.00;
 
-type date is record
-   end record
+   subtype num_day_of_year is Integer range 1 .. 365;
+   subtype num_month_of_year is Integer range 1 .. 13;
+
+   subtype num_day_of_month is Integer range 1 .. 28;
+
+   is_in_current_epoch : Boolean := True
+
+end Antikythera_Calendar;
