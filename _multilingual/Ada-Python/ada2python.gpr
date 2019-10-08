@@ -1,0 +1,10 @@
+library project Ada2Python is
+   for Languages use ("Ada");
+   for Library_Name use "Ada2Python";
+   for Source_Dirs use (".");
+   for Object_Dir use "obj";
+   for Library_Dir use "lib";
+   for Library_Kind use "Dynamic";
+   for Library_Interface use ("Ada2Python");
+   for Library_Auto_Init use "False";
+end Ada2Python;
