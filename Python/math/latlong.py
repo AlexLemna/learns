@@ -1,12 +1,6 @@
 from dataclasses import dataclass
 from math import asin, cos, radians, sin, sqrt
 
-@dataclass
-class CartesianCoordinate:
-    name: str
-    x: float = 0.0
-    y: float = 0.0
-
 
 @dataclass
 class LatLongPosition:
@@ -15,7 +9,7 @@ class LatLongPosition:
     latitude: float = 0.0
 
     def distance_to(self, other):
-        r = 6371  # Earth radius in km
+        r = 6_371.007  # Earth radius in km (mean radius)
         λ1, λ2 = radians(self.longitude), radians(other.longitude)
         φ1, φ2 = radians(self.latitude), radians(other.latitude)
         h = (sin (φ2 - φ1) / 2) ** 2 + cos(φ1) * cos(φ2) * sin((λ2 - λ1) / 2) ** 2
